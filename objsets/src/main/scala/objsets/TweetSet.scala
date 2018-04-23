@@ -137,8 +137,8 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   }
   
   def union(that: TweetSet): TweetSet = {
-    if(that.contains(elem)) that.union(left).union(right)
-    else that.incl(elem).union(left).union(right)
+   right.union(left.union(that.incl(elem)))
+
   }
     
 
