@@ -2,3 +2,20 @@ eclipse
 compile
 :quit
 exit
+eclipse
+quit
+exit
+compile
+clean
+compile
+clean test
+clean
+test
+compile
+build
+help
+reload
+eclipse
+exit
+help
+packageSubmission
